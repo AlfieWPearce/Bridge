@@ -21,21 +21,21 @@ Until then, this rep serves as a project overview
 **-- How to play (after August) --**
 
 1. Clone the project:
-`bash
+```bash
 git clone https://github.com/AlfieWPearce/Bridge
-`
+```
 2. Install dependencies locally:
-`bash
+```bash
 npm install
-`
+```
 3. Start the server
-`bash
+```bash
 npm start
-`
+```
 4. Open a web tunnel (localhost works, but this will allow usage on any device)
-`bash
+```bash
 npx ngrok http 3000
-`
+```
 5. Use the forwarded Ngrok URL to interact with the app.
 
 **--**
