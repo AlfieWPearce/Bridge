@@ -6,7 +6,7 @@
 
 ![Demo](demo.gif)
 
-- Full demonstration vide: [Bridge-demo.mp4](bridge-demo.mp4).
+- This is part of the demonstration video submitted to the exam board as evidence of the completed system and its functionality.
 
 ### Overview
 
@@ -15,7 +15,7 @@ Bridge is a real-time multiplayer web application that allows four players to pl
 The project was researched, designed, developed, tested, evaluated and documented as part of my A-Level Computer Science coursework. Development followed an iteratice Agile-inspired approach with frequent testing, feedback and refinement throughout the project lifecycle. It focuses on client-server communication, game-state management, validation and reliable multiplayer gameplay.  
 
 > [!NOTE]
-> Due to A-Level examination restrictions and academic integrity requirements, the source code and full (193) page documentation cannot be published until results day in August 2026. They can be provided upon release of examination materials.
+> Due to A-Level examination restrictions and academic integrity requirements, the source code, full demonstration video and full (193) page documentation cannot be published until results day in August 2026. They can be provided upon release of examination materials.
 
 ## Technologies Used
 
