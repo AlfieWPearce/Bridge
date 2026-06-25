@@ -4,9 +4,9 @@
 
 ### Demonstration
 
-![Demo](video.gif)
+![Demo](demo.gif)
 
-- This is the demonstration video submitted to the exam board as evidence of the completed system and functionality.
+- Full demonstration vide: [Bridge-demo.mp4](bridge-demo.mp4).
 
 ### Overview
 
