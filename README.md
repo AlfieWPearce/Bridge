@@ -14,6 +14,15 @@ Bridge is a real-time multiplayer web application that allows four players to pl
 
 The project was researched, designed, developed, tested, evaluated and documented as part of my A-Level Computer Science coursework. Development followed an iterative Agile-inspired approach with frequent testing, feedback and refinement throughout the project's life-cycle. It focuses on client-server communication, game-state management, validation and reliable multiplayer gameplay.  
 
+## Contents
+
+- `code/` contains the source code - both the video and documentation shows how to use it
+
+> Below is what was submitted to OCR (under different filenames of course)
+
+- [Read the documentation](write-up.pdf)
+- [Watch the testing video](video.mp4)
+
 ## Technologies Used
 
 - HTML, CSS
