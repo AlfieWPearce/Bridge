@@ -1,0 +1,61 @@
+<!--
+	Index.html
+	Contains code to affect the header, create the viewport, remove the margins, and link the servers
+-->
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Sets meta data -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no" />
+
+		<!-- Sets the title -->
+		<title>Bridge</title>
+
+		<!-- Sets Favicon Icon -->
+		<link rel="icon" type="image/png" href="./Art/favicon.png" />
+
+		<!-- P5.js -- Visuals && Audio -- -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js" integrity="sha512-7DACDM+XO+/7cocfzNIXh/3rSXc7MzTtr2elSVJLYcXXHPL1/lAyFSKU1F1JBPPCvBGOLNYJCqLlzFeJzc6dLg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/addons/p5.sound.min.js" integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<!-- Socket -- Server Connection -- -->
+		<script src="/socket.io/socket.io.js"></script>
+
+		<!-- Classes -->
+		<script src="buttons.js"></script>
+		<script src="cards.js"></script>
+		<!-- Drawing the Game -->
+		<script src="drawGame.js"></script>
+		<!-- Client -- Main file -- -->
+		<script src="client.js"></script>
+	</head>
+
+	<!-- CSS -- only to make canvas 'nicer' -->
+	<style>
+		/* Removes margin, padding of everything */
+		/* Sets to full screen and removes overflow */
+		/* Sets default colour say the canvas is struggling to load */
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+			touch-action: none;
+			background-color: rgb(50, 50, 50);
+			color: rgb(200, 200, 200);
+		}
+
+		/* Makes sure that the canvas is always full screen */
+		canvas {
+			display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+	</style>
+</html>
+
+<!-- Mention creation of favicon icon -->

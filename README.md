@@ -12,16 +12,13 @@
 
 Bridge is a real-time multiplayer web application that allows four players to play the traditional card game Bridge through a browser.  
 
-The project was researched, designed, developed, tested, evaluated and documented as part of my A-Level Computer Science coursework. Development followed an iteratice Agile-inspired approach with frequent testing, feedback and refinement throughout the project lifecycle. It focuses on client-server communication, game-state management, validation and reliable multiplayer gameplay.  
-
-> [!NOTE]
-> Due to A-Level examination restrictions and academic integrity requirements, the source code, full demonstration video and full (193) page documentation cannot be published until results day in August 2026. They can be provided upon release of examination materials.
+The project was researched, designed, developed, tested, evaluated and documented as part of my A-Level Computer Science coursework. Development followed an iterative Agile-inspired approach with frequent testing, feedback and refinement throughout the project's life-cycle. It focuses on client-server communication, game-state management, validation and reliable multiplayer gameplay.  
 
 ## Technologies Used
 
 - HTML, CSS
 - JavaScript: Node.js, Express, Socket.io, p5.js
-- Ngrok - allows for non-local connection (used due to extreme limitations in linux container and college wifi)
+- Ngrok - allows for non-local connection (used due to extreme limitations in Linux container and college wi-fi)
 - Visual Studio Code, Microsoft Word, Flat.io, Aseprite
 
 ---
@@ -83,7 +80,11 @@ The project followed a structured software development process:
 5. Design - Decomposition, UI, Data storage, Algorithms
 6. Development - Iteration plan, proofs of concepts, actual iterations
 7. Testing - according to Project specification, Stakeholder testing
-8. Evaluation - Success Criteria, Usability, Robustness, Limitations, Mainenance Issues, Future
+8. Evaluation - Success Criteria, Usability, Robustness, Limitations, Maintenance Issues, Future
+
+---
+
+> The full documentation made for the coursework is included in this repository
 
 ---
 
